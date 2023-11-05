@@ -18,11 +18,13 @@
 ## 📖 Table of Contents
 - [📖 Table of Contents](#-table-of-contents)
 - [📍 Overview](#-overview)
+- [📧 Spam Classification](#-spam-classification)
 - [📦 Features](#-features)
 - [📂 repository Structure](#-repository-structure)
 - [⚙️ Modules](#modules)
 - [🔧 Installation](#-installation)
 - [🛣 Roadmap](#-roadmap)
+- [📈 Model Performance](#-model-performance)
 - [🤝 General Conclusion](#-contributing)
 - [👏 Acknowledgments](#-acknowledgments)
 
@@ -38,7 +40,7 @@ This project is my report for my NLP course at the EPF school during my 5th year
 It is a first foot in the NLP world, so I tried to use the most basic models and techniques to classify the emails with ML models. I also tried Deep Learning for the first time.
 
 ---
-## 📦 Spam Classification
+## 📧 Spam Classification
 
 This Project is based on Spam Email detection. The goal is to classify emails as spam or not spam. To do that we will use different NLP techniques and models.
 
@@ -121,7 +123,7 @@ pip install -r requirements.txt
 
 ---
 
-## Model Performance
+## 📈 Model Performance
 
 | Model                        | Accuracy (%) | Macro F1-score (%) | Training size | Training time (s) |
 |------------------------------|--------------|--------------------|---------------------------|-----------------------------|
@@ -131,11 +133,11 @@ pip install -r requirements.txt
 
 ## 🤝 General Conclusion
 
-> - This project presents an initial foray into the world of NLP, employing fundamental NLP techniques and models to classify emails as spam or not. It provides insights into the performance of basic models and serves as a stepping stone for future improvements
+This project presents an initial foray into the world of NLP, employing fundamental NLP techniques and models to classify emails as spam or not. It provides insights into the performance of basic models and serves as a stepping stone for future improvements
 
-> - The basic model is a good start to classify emails as spam or not. Also It is a good model to start with and to have a first idea of the performance of the model but I think that Deep Leraning models are more efficient for this kind of problem. I just don't have enough time to improve the Deep Learning model now.
+ The basic model is a good start to classify emails as spam or not. Also It is a good model to start with and to have a first idea of the performance of the model but I think that Deep Leraning models are more efficient for this kind of problem. I just don't have enough time to improve the Deep Learning model now.
 
-> - But the result that I have are not really relevant, RNN is more perfomant but has a large traning size and training time. I think that I can improve the model by changing the Deep Learning model and the NLP encoding methods. I will try to improve the model in the future.
+But the result that I have are not really relevant, RNN is more perfomant but has a large traning size and training time. I think that I can improve the model by changing the Deep Learning model and the NLP encoding methods. I will try to improve the model in the future.
 
 [**Return**](#Top)
 
