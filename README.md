@@ -21,7 +21,7 @@
 - [📧 Spam Classification](#-spam-classification)
 - [📦 Features](#-features)
 - [📂 repository Structure](#-repository-structure)
-- [⚙️ Modules](#modules)
+- [⚙️ Modules](#️-modules)
 - [🔧 Installation](#-installation)
 - [🛣 Roadmap](#-roadmap)
 - [📈 Model Performance](#-model-performance)
