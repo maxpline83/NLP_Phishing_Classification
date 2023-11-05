@@ -58,7 +58,7 @@ Here is an explanation on how to classify emails as spam or not spam:
 
 ## 📂 Repository Structure
 
-```sh
+```
 └── NLP_Phishing_Classification/
     ├── data/
       ├── Phishing_Email.csv
