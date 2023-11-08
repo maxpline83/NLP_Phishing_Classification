@@ -1,8 +1,7 @@
 <div align="center">
 <h1 align="center">
 <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" width="100" />
-<br>NLP_PHISHING_CLASSIFICATION<br>
-This project isn't finished yet but the readme is finished</h1>
+<br>NLP_PHISHING_CLASSIFICATION</h1>
 <h3>◦ Developed with the software and tools below.</h3>
 
 <p align="center">
@@ -57,7 +56,7 @@ Here is an explanation on how to classify emails as spam or not spam:
 - `Data Exploratory Analysis`
 - `Basic ML model`
 - `Hyperparameter tuning`
-- `Basic Deep Learning model (RNN)`
+- `Basic Deep Learning model`
 
 ---
 
@@ -119,10 +118,10 @@ pip install -r requirements.txt
 
 ## 🛣 Project Roadmap
 
-> - [X] `ℹ️  Task 1: Comment the code`
-> - [ ] `ℹ️  Task 2: change basic script to function & Class`
+> - [X] `ℹ️ Task 1: Comment the code`
+> - [ ] `ℹ️ Task 2: change basic script to function & Class`
 > - [ ] `ℹ️ Task 3: Add a new feature in Basic Model`
-> - [ ] `ℹ️ Task 4: Improve the Deep Learning model`
+> - [X] `ℹ️ Task 4: Improve the Deep Learning model`
 
 
 ---
@@ -148,6 +147,7 @@ This project presents an initial foray into the world of NLP, employing fundamen
 But the result that I have are not really relevant, RNN is more perfomant but has a large traning size and training time. I think that I can improve the model by changing the Deep Learning model and the NLP encoding methods. I will try to improve the model in the future.
 
 ---
+
 ## 👏 Acknowledgments
 
 - [Kaggle](https://www.kaggle.com/datasets/subhajournal/phishingemails) for the dataset
