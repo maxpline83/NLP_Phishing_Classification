@@ -55,7 +55,7 @@ Here is an explanation on how to classify emails as spam or not spam:
 
 - `Data Exploratory Analysis`
 - `Basic ML model`
-- `Hyperparameter tuning`
+- `Improving basic ML performance by hyperparameter tuning, learning curve ...`
 - `Basic Deep Learning model`
 
 ---
@@ -131,6 +131,7 @@ pip install -r requirements.txt
 | Model                        | Accuracy (%) | Macro F1-score (%) | Training size | Training time per epochs (s) |
 |------------------------------|--------------|--------------------|---------------------------|-----------------------------|
 | Basic Model                  | 94           | 95                 | 1000                      | 1,2                      |
+| Simple Neural Network        | 77           | 80                 | 1000                      | 1                      |
 | RNN                          | 80           | 83                 | 1000                      | 3                  |
 | LSTM                         | 83           | 86                 | 1000                      | 4                  |
 | CNN                          | 81           | 84                 | 1000                      | 1                  |
@@ -142,9 +143,11 @@ pip install -r requirements.txt
 
 This project presents an initial foray into the world of NLP, employing fundamental NLP techniques and models to classify emails as spam or not. It provides insights into the performance of basic models and serves as a stepping stone for future improvements
 
- The basic model is a good start to classify emails as spam or not. Also It is a good model to start with and to have a first idea of the performance of the model but I think that Deep Leraning models are more efficient for this kind of problem. I just don't have enough time to improve the Deep Learning model now.
+The basic model is a good start to classify emails as spam or not. Also It is a good model to start with and to have a first idea of the performance of the model but I think that Deep Leraning models are more efficient for this kind of problem. I just don't have enough time to improve the Deep Learning model now.
 
-But the result that I have are not really relevant, RNN is more perfomant but has a large traning size and training time. I think that I can improve the model by changing the Deep Learning model and the NLP encoding methods. I will try to improve the model in the future.
+But the result that I have are not really relevant, Simple Neural Network is perfomant but has a larger training time. I think that I can improve the model by changing the Deep Learning model and the NLP encoding methods. I will try to improve the model in the future.
+
+With testing 2 others type of Deep Learning model, I can see that the LSTM model is more efficient than the RNN model. How ever, the performance are not really good compared to basic model. It may be due to the NLP encoding methods or the size of the trainning dataset. We know that Deep Learning model need a lot of data to be efficient.
 
 ---
 
