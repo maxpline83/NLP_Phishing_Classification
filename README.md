@@ -131,10 +131,10 @@ pip install -r requirements.txt
 | Model                        | Accuracy (%) | Macro F1-score (%) | Training size | Training time per epochs (s) |
 |------------------------------|--------------|--------------------|---------------------------|-----------------------------|
 | Basic Model                  | 94           | 95                 | 1000                      | 1,2                      |
-| Simple Neural Network        | 77           | 80                 | 1000                      | 1                      |
-| RNN                          | 80           | 83                 | 1000                      | 3                  |
-| LSTM                         | 83           | 86                 | 1000                      | 4                  |
-| CNN                          | 81           | 84                 | 1000                      | 1                  |
+| Simple Neural Network        | 92           | 93                 | 1000                      | 6                      |
+| RNN                          | 88           | 85                 | 1000                      | 13                  |
+| LSTM                         | 91           | 92                 | 1000                      | 16                  |
+| CNN                          | 91           | 92                 | 1000                      | 2                  |
 
 ---
 
